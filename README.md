@@ -7,4 +7,4 @@
 (   /_| |_|\___/|_|  |_|_____|
  |_|
 ```
-General setup (not machine specific)
+Arch Linux on Asus N56V Laptop
