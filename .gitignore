@@ -79,7 +79,6 @@ tar
 
 package-lock.json
 
-
 # ignores for individual config directories
 .config/autostart/
 .config/BraveSoftware/
