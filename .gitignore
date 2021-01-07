@@ -87,7 +87,7 @@ package-lock.json
 .config/gconf
 .config/Electron/
 
-.config/Min/
+.config/Min/*
 !.config/Min/userscripts/
 !.config/Min/settings.json
 
@@ -114,6 +114,12 @@ package-lock.json
 
 .config/micro/backups/
 .config/micro/buffers/
+
+.config/fontconfig/
+.config/get-3.0/
+.config/google-chrome-unstable/
+.config/pulse
+.config/kak/plugins/
 .config/monitors*
 
 .config/netsurf/Cookies
