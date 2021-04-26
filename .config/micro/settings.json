@@ -4,7 +4,7 @@
     },
     "backup": false,
     "basename": true,
-    "colorscheme": "dukeubuntu-tc",
+    "colorscheme": "dukelight-tc",
     "diffgutter": true,
     "ignorecase": true,
     "pluginchannels": [
@@ -13,6 +13,7 @@
     "pluginrepos": [],
     "rmtrailingws": true,
     "smartpaste": false,
+    "softwrap": true,
     "statusformatl": "$(filename)|ft:$(opt:filetype)",
     "statusformatr": "$(modified)($(line)) $(status.paste)",
     "tabstospaces": true
