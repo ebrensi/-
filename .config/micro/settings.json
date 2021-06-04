@@ -4,15 +4,15 @@
     },
     "backup": false,
     "basename": true,
-    "colorscheme": "darcula",
+    "colorscheme": "dukeubuntu-tc",
     "diffgutter": true,
-    "ignorecase": true,
     "pluginchannels": [
         "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
     ],
     "pluginrepos": [],
     "rmtrailingws": true,
     "smartpaste": false,
+    "softwrap": true,
     "statusformatl": "$(filename)|ft:$(opt:filetype)",
     "statusformatr": "$(modified)($(line)) $(status.paste)",
     "tabstospaces": true

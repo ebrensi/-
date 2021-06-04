@@ -36,6 +36,7 @@ wp*
 .thumbnails/
 .var/
 .venv/
+.wine
 .zoom/
 
 Desktop/
@@ -77,6 +78,7 @@ package-lock.json
 # ignores for individual config directories
 .config/autostart/
 .config/BraveSoftware/
+.config/com.github.*
 .config/dconf
 .config/gconf
 .config/Electron/
@@ -90,6 +92,7 @@ package-lock.json
 .config/autostart/
 .config/bashtop/error.log
 .config/chromium/
+.config/google-chrome
 .config/com.github.xournalpp.xournalpp/autosave/
 .config/com.github.xournalpp.xournalpp/errorlogs/
 .config/configstore/
@@ -112,7 +115,7 @@ package-lock.json
 
 .config/nnn/mounts
 .config/nnn/sessions
-.config/nnn/plugins/
+.config/nnn/plugins*
 !.config/nnn/plugins/getplugs
 
 .config/plank/
@@ -121,10 +124,14 @@ package-lock.json
 .config/sublime-merge/
 !.config/sublime-merge/Packages/User/
 
+.config/Slack
+
 .config/sublime-text-3/
 !.config/sublime-text-3/Packages/User/
 
 .config/tbsm/
+
+.config/menus
 
 .config/xfce4/
 

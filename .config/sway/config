@@ -40,7 +40,7 @@ set $hpLaptopDisplay eDP-1
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 # output * background /usr/share/backgrounds/stars-wallpaper-1920x1080.jpg fill
-output * background /usr/share/backgrounds/pop/nick-nazzaro-bedroom.png fill
+output * background /usr/share/backgrounds/pop/nasa-53884.jpg fill
 
 #
 # Montitor configuration:
