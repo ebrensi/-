@@ -39,7 +39,7 @@ set $filePicker alacritty -t="filePicker" -e EDITOR=micro; nnn
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 # output * background /usr/share/backgrounds/stars-wallpaper-1920x1080.jpg fill
-output * background /usr/share/backgrounds/stars-wallpaper-2-1920x1080.jpg fill
+output * bg $HOME/Downloads/background.jpg fill
 
 #
 # Montitor configuration:
@@ -69,7 +69,7 @@ exec swayidle -w \
     timeout 7200 'systemctl suspend'
 
 ### Input configuration
-input "2:7:SynPS/2_Synaptics_TouchPad" {
+input "2:14:ETPS/2_Elantech_Touchpad" {
     dwt enabled
     tap enabled
     natural_scroll enabled

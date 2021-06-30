@@ -4,9 +4,8 @@
     },
     "backup": false,
     "basename": true,
-    "colorscheme": "dukelight-tc",
+    "colorscheme": "dukeubuntu-tc",
     "diffgutter": true,
-    "ignorecase": true,
     "pluginchannels": [
         "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
     ],

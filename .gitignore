@@ -96,9 +96,7 @@ package-lock.json
 .config/autostart/
 .config/bashtop/error.log
 .config/chromium/
-.config/google-chrome
-.config/com.github.xournalpp.xournalpp/autosave/
-.config/com.github.xournalpp.xournalpp/errorlogs/
+.config/google-chrome/
 .config/configstore/
 .config/google-chrome-unstable/
 .config/evolution/
