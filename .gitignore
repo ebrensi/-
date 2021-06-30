@@ -97,6 +97,8 @@ package-lock.json
 .config/bashtop/error.log
 .config/chromium/
 .config/google-chrome/
+.config/google-chrome-unstable/
+
 .config/configstore/
 .config/google-chrome-unstable/
 .config/evolution/
@@ -115,7 +117,10 @@ package-lock.json
 
 .config/fontconfig/
 .config/get-3.0/
-.config/google-chrome-unstable/
+.config/micro/buffers/
+.config/menus/
+.config/nnn/.selection
+
 .config/pulse
 .config/kak/plugins/
 .config/monitors*
@@ -153,5 +158,6 @@ package-lock.json
 
 log.txt
 *.log
+
 
 
