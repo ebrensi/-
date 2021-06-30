@@ -1,0 +1,23 @@
+{
+	"animation_enabled": false,
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+	"copy_with_empty_selection": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 11,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"line_numbers": false,
+	"margin": 0,
+	"remember_open_files": false,
+	"shift_tab_unindent": true,
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

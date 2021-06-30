@@ -1,0 +1,7 @@
+{
+	"editor_path": "alacritty -e micro",
+	"hardware_acceleration": "opengl",
+	"hide_menu": true,
+	"ignore_diff_white_space": true,
+	"trim_trailing_white_space_on_save": true
+}

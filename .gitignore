@@ -16,8 +16,10 @@ wp*
 
 .fonts/
 .fzf/
+.gnome/
 .gnupg/
 .ipython/
+.jupyter/
 .local/
 .mozilla/
 .node-gyp/
@@ -25,8 +27,10 @@ wp*
 .npm/
 .nuget/
 .nv/
+.pipewire*
 .pki/
 .pnpm*
+.porto/
 .pylint*
 .rustup/
 .psensor/log
@@ -38,6 +42,7 @@ wp*
 .venv/
 .wine
 .zoom/
+
 
 Desktop/
 Documents/
@@ -99,6 +104,7 @@ package-lock.json
 .config/google-chrome-unstable/
 .config/evolution/
 .config/fish/
+.config/font-manager/
 .config/gthumb/
 .config/gnome-session/
 .config/gtk-*
@@ -109,25 +115,32 @@ package-lock.json
 
 .config/micro/backups/
 .config/micro/buffers/
+.config/monitors*
 
 .config/netsurf/Cookies
 .config/netsurf/URLs
 
 .config/nnn/mounts
 .config/nnn/sessions
-.config/nnn/plugins*
+.config/nnn/plugins*.tar.gz
+.config/nnn/plugins/*
 !.config/nnn/plugins/getplugs
 
 .config/plank/
 .config/pulse/
 .config/solaar/
-.config/sublime-merge/
+
+.config/sublime-merge/*
+!.config/sublime-merge/Packages/
+.config/sublime-merge/Packages/*
 !.config/sublime-merge/Packages/User/
 
 .config/Slack
 
-.config/sublime-text-3/
-!.config/sublime-text-3/Packages/User/
+.config/sublime-text/*
+!.config/sublime-text/Packages/
+.config/sublime-text/Packages/*
+!.config/sublime-text/Packages/User
 
 .config/tbsm/
 

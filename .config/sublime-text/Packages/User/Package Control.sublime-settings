@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"Better CoffeeScript",
+		"Coffee Color Scheme",
+		"Colorsublime",
+		"Cython+",
+		"DocBlockr",
+		"ESLint",
+		"Format JSDoc @params",
+		"Git",
+		"JsPrettier",
+		"Package Control",
+		"Ruby Blue Color Scheme",
+		"sublack",
+		"SublimeLinter",
+		"SublimeLinter-addon-black-for-flake",
+		"SublimeLinter-contrib-htmlhint",
+		"SublimeLinter-contrib-yamllint",
+		"SublimeLinter-eslint",
+		"SublimeLinter-flake8",
+		"Theme - Cobalt2",
+		"TypeScript",
+		"WakaTime",
+		"Witch Hazel",
+	],
+}
