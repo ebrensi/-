@@ -12,6 +12,8 @@ export ELM_ENGINE=wayland_egl
 export ELM_ACCEL=opengl
 #export GDK_BACKEND=wayland
 
+export BROWSER=google-chrome
+
 unset GDK_BACKEND
 unset WAYLAND_DISPLAY
 
