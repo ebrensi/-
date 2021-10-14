@@ -120,6 +120,7 @@ package-lock.json
 .config/micro/buffers/
 .config/menus/
 .config/nnn/.selection
+.config/nnn/plugins
 
 .config/pulse
 .config/kak/plugins/

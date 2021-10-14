@@ -21,6 +21,7 @@ image/x-portable-graymap=imv.desktop
 image/x-portable-pixmap=imv.desktop
 image/x-tga=imv.desktop
 image/x-xbitmap=imv.desktop
-x-scheme-handler/mailto=google-chrome-unstable.desktop
+x-scheme-handler/mailto=google-chrome.desktop
 x-scheme-handler/webcal=google-chrome-unstable.desktop
+x-scheme-handler/kite=kite-copilot.desktop
 

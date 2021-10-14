@@ -90,7 +90,7 @@
     },
     "battery": {
         "states": {
-            // "good": 95,
+            //"good": 95,
             "warning": 30,
             "critical": 15
         },
@@ -106,7 +106,7 @@
         "bat": "BAT2"
     },
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        // "interface": "wlan1", // (Optional) To force the use of this interface
         "format-wifi": "{essid} ({signalStrength}%) ",
         "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
         "format-linked": "{ifname} (No IP) ",

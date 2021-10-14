@@ -50,7 +50,7 @@ output * bg $HOME/Downloads/background.jpg fill
 output HDMI-A-1 pos 0 0
 
 ## If right-side screen *is not* rotated
-output VGA-1 pos 1920 0
+output VGA-1 pos 1920 180
 
 ## If right-side screen *is* rotated
 # output VGA-1 pos 1920 -340 transform 270
@@ -277,11 +277,12 @@ bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
 bindsym XF86MonBrightnessUp exec brightnessctl set +5%
 
 # Exit dialog
-set $mode_system System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown, (R) UEFI
+set $mode_system System: (l) lock, (e) logout, (s)uspend  (h)ybrid-sleep, (r)eboot, (S)hutdown, (R) UEFI
 mode "$mode_system" {
     bindsym l exec $lock, mode "default"
     bindsym e exit
     bindsym s exec systemctl suspend, mode "default"
+    bindsym h exec systemctl hybrid-sleep, mode "default"
     bindsym r exec systemctl reboot, mode "default"
     bindsym Shift+s exec systemctl poweroff -i, mode "default"
     bindsym Shift+r exec systemctl reboot --firmware-setup, mode "default"
@@ -301,7 +302,6 @@ include /etc/sway/config.d/*
 #
 
 exec gammastep
-#exec gammastep-indicator
-
 exec mako
 exec nm-applet --indicator
+exec iwgtk -i

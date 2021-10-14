@@ -1,0 +1,5 @@
+{
+    "shell_cmd": ["cythonize -i -a", "$file"],
+    "selector": "source.cython",
+    "file_patterns": ["*.pyx", "*.pxd"]
+}

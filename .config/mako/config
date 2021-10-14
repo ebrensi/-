@@ -2,7 +2,7 @@ sort=-time
 layer=overlay
 border-size=2
 border-radius=15
-default-timeout=10000
+default-timeout=5000
 
 [urgency=low]
 border-color=#cccccc
