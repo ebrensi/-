@@ -2,6 +2,8 @@
 
 wp*
 
+.aws/
+
 .cache/
 .cargo/
 .dbus
@@ -110,7 +112,7 @@ package-lock.json
 .config/gnome-session/
 .config/gtk-*
 .config/ibus/
-.conig/Kite/
+.config/Kite
 .config/systemd/
 .config/libreoffice/
 .config/luna/
