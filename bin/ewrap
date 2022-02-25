@@ -11,6 +11,6 @@ if [ -n "$TMUX" ]; then
     kitty @ launch $EDITOR "$*"
 
    else
-     alacritty -e $EDITOR "$*" &
+     footclient $EDITOR "$*" &
 fi
 

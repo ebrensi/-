@@ -4,16 +4,12 @@
 #  Source this file to enable custom nnn features
 ##
 
-export VISUAL=$HOME/bin/ewrap
-
-# We store npm packages locally to avoid giving them elevated priviledges
-export npm_config_prefix=$HOME/.node_modules_global
-export PATH="$HOME/bin:$npm_config_prefix/bin:$PATH"
+# export VISUAL=$HOME/bin/ewrap
 
 # nnn settings via environment variables
 export LC_COLLATE="C"
-export NNN_BMS='c:~/.config;h:~/dev/heatflask;d:~/Downloads/'
-export NNN_PLUG='v:imgview;p:preview-tui;c:.cbcp;f:fzopen;l:launch;s:pskill;'
+export NNN_BMS='c:~/.config;h:~/dev/heatflask;d:~/Downloads/;g:~/dev/geminae/'
+export NNN_PLUG='t:thumb;v:imgview;V:viuimg;p:preview-tui;c:.cbcp;f:fzopen;l:launch;s:pskill;'
 export NNN_ARCHIVE="\\.(7z|bz2|gz|tar|tgz|zip)$"
 export NNN_COLORS="2136"               # use a different color for each context
 export NNN_FCOLORS='c1e2272e006033f7c6d6abc4'
@@ -21,10 +17,10 @@ export NNN_FCOLORS='c1e2272e006033f7c6d6abc4'
 export NNN_TRASH=1                     # trash (needs trash-cli) instead of delete
 # export NNN_FCOLORS='c1e2272e006033f7c6d6abc4'
 export NNN_OPENER="$HOME/.config/nnn/plugins/nuke"
-export NNN_OPTS="EAoac"
+export NNN_OPTS="EAcoaxu"
 
 # for nuke launcher
-export GUI=1
+export GUI=0
 
 # Set up environment for nnn
 n ()
@@ -49,3 +45,6 @@ n ()
             rm -f "$NNN_TMPFILE" > /dev/null
     fi
 }
+
+
+alias N='sudo -E nnn -dH${NNN_OPTS}'

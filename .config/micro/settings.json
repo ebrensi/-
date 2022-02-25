@@ -2,17 +2,19 @@
     "*.js": {
         "tabsize": 2
     },
+    "autosu": true,
     "backup": false,
     "basename": true,
-    "colorscheme": "dukeubuntu-tc",
+    "colorscheme": "simple",
     "diffgutter": true,
+    "mkparents": true,
     "pluginchannels": [
         "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
     ],
     "pluginrepos": [],
     "rmtrailingws": true,
+    "saveundo": true,
     "smartpaste": false,
-    "softwrap": true,
     "statusformatl": "$(filename)|ft:$(opt:filetype)",
     "statusformatr": "$(modified)($(line)) $(status.paste)",
     "tabstospaces": true

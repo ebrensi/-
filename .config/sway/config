@@ -17,7 +17,7 @@ set $up k
 set $right l
 
 # Preferred terminal emulators
-set $term alacritty
+set $term footclient
 set $term_alt kitty
 
 # Application lauchers
@@ -305,3 +305,4 @@ exec gammastep
 exec mako
 exec nm-applet --indicator
 exec iwgtk -i
+exec foot --server

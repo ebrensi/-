@@ -63,6 +63,8 @@ tar
 ..Xauthority.swp
 .history
 .pythonhist
+.python_history
+.tig_history
 .wget-hsts
 .*_history
 .face
@@ -108,7 +110,8 @@ package-lock.json
 .config/gnome-session/
 .config/gtk-*
 .config/ibus/
-
+.conig/Kite/
+.config/systemd/
 .config/libreoffice/
 .config/luna/
 
@@ -120,7 +123,7 @@ package-lock.json
 .config/micro/buffers/
 .config/menus/
 .config/nnn/.selection
-.config/nnn/plugins
+.config/nnn/plugins/*
 
 .config/pulse
 .config/kak/plugins
@@ -156,6 +159,9 @@ package-lock.json
 .config/menus
 
 .config/xfce4/
+
+.kite/
+.wakatime/
 
 log.txt
 *.log
