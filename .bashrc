@@ -2,6 +2,7 @@
 # ~/.bashrc
 #
 
+export MICRO_TRUECOLOR=1
 export EDITOR=micro
 export TERMINAL=$TERM
 
@@ -13,7 +14,7 @@ alias l='ls -CF'
 alias ls=exa
 alias cat="bat"
 alias g="cd ~/dev/geminae; source activate"
-alias h="cd ~/dev/heatflask/backend; source activate"
+alias h="cd ~/dev/heatflask/backend; source activate; cd .."
 
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export BAT_PAGER="less -nRF"

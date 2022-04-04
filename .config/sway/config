@@ -38,8 +38,10 @@ set $filePicker alacritty -t="filePicker" -e EDITOR=micro; nnn
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-# output * background /usr/share/backgrounds/stars-wallpaper-1920x1080.jpg fill
-output * bg $HOME/Downloads/background.jpg fill
+output HDMI-A-1 bg /home/efrem/Pictures/Wallpapers/G3k9cDz.png fill
+output VGA-1 bg /home/efrem/Pictures/Wallpapers/wall_style2_nologo.png fill
+
+
 
 #
 # Montitor configuration:
@@ -66,7 +68,7 @@ bindswitch --reload --locked lid:off output LVDS-1 enable
 # suspend after 2 hours idle
 exec swayidle -w \
     timeout 1200 'swaylock -f -c 000000' \
-    timeout 7200 'systemctl suspend'
+    timeout 14400 'systemctl suspend'
 
 ### Input configuration
 input "2:14:ETPS/2_Elantech_Touchpad" {

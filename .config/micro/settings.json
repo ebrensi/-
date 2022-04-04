@@ -5,7 +5,7 @@
     "autosu": true,
     "backup": false,
     "basename": true,
-    "colorscheme": "simple",
+    "colorscheme": "cobalt",
     "diffgutter": true,
     "mkparents": true,
     "pluginchannels": [
@@ -15,6 +15,7 @@
     "rmtrailingws": true,
     "saveundo": true,
     "smartpaste": false,
+    "softwrap": true,
     "statusformatl": "$(filename)|ft:$(opt:filetype)",
     "statusformatr": "$(modified)($(line)) $(status.paste)",
     "tabstospaces": true

@@ -20,7 +20,7 @@ export NNN_OPENER="$HOME/.config/nnn/plugins/nuke"
 export NNN_OPTS="EAcoaxu"
 
 # for nuke launcher
-export GUI=0
+export GUI=1
 
 # Set up environment for nnn
 n ()
