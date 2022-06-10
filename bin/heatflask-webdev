@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# open a split-window tmux session with
+#  backend server in one pane and
+#  parcel watch frontend builder in the other
+
+session="heatflask-webdev"
+root="~/dev/heatflask"
+activate_command = "source $root/backend/.venv/heatflask/bin/activate"
+
+sessionexists=$(tmux list-sessions | grep $session)
+
+if [ "$sessionexists" = "" ]
+then
+    tmux new-session -d -s $session
+    tmux send-keys "$activate_command" C-m
+    tmux send-keys "cd $root/frontend; npm run watch" C-m
+
+    tmux split-window -h
+    tmux send-keys "$activate_command" C-m
+    tmux send-keys "cd $root/backend; ./dev-run" C-m
+
+    tmux split-window -v
+    tmux send-keys "$activate_command" C-m
+    tmux send-keys "cd $root; code .; tig" C-m
+fi
+
+tmux attach-session -t $session

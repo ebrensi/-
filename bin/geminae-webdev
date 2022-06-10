@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# open a split-window tmux session with
+#  backend server in one pane and
+#  parcel watch frontend builder in the other
+
+session="geminae-webdev"
+root="~/dev/geminae"
+
+sessionexists=$(tmux list-sessions | grep $session)
+
+if [ "$sessionexists" = "" ]
+then
+    tmux new-session -d -s $session
+    tmux send-keys "source $root/.venv/geminae-backend/bin/activate" C-m
+    tmux send-keys "cd $root/Client; npm run watch" C-m
+
+    tmux split-window -h
+    tmux send-keys "source $root/.venv/geminae-backend/bin/activate" C-m
+    tmux send-keys "cd $root; python server.py" C-m
+
+    tmux split-window -v
+    tmux send-keys "source $root/.venv/geminae-backend/bin/activate" C-m
+    tmux send-keys "cd $root; code .; tig" C-m
+fi
+
+tmux attach-session -t $session

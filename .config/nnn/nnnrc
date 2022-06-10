@@ -4,8 +4,9 @@
 #  Source this file to enable custom nnn features
 ##
 
-export VISUAL=${XDG_CONFIG_HOME:-$HOME/.config}/nnn/ewrap
+# export VISUAL=${XDG_CONFIG_HOME:-$HOME/.config}/nnn/ewrap
 export EDITOR=micro
+# export TERM=xterm-256
 
 # For preview-tui
 if [ $TERM = "xterm-kitty" ]; then
@@ -24,7 +25,7 @@ export NNN_FIFO=/tmp/nnn.fifo
 
 # export NNN_FCOLORS='c1e2272e006033f7c6d6abc4'
 export NNN_OPENER="$HOME/.config/nnn/plugins/nuke"
-export NNN_OPTS="EAco"
+export NNN_OPTS="EAxco"
 
 # for nuke launcher
 export GUI=1
